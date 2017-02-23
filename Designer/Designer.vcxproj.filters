@@ -268,5 +268,11 @@
     <ClInclude Include="CodeEdit.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\ZUI\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ZUI\res\res.zip" />
   </ItemGroup>
 </Project>
