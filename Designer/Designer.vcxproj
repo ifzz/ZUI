@@ -28,7 +28,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140_xp</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
@@ -98,7 +98,7 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <MinimalRebuild>true</MinimalRebuild>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
-      <AdditionalIncludeDirectories>$(SolutionDir)ZUI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZUI\;$(SolutionDir)ZUI\core\agg\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -177,13 +177,20 @@
     <ClCompile Include="..\ZUI\control\SplitterBar.c" />
     <ClCompile Include="..\ZUI\control\Virtual.c" />
     <ClCompile Include="..\ZUI\control\Window.c" />
+    <ClCompile Include="..\ZUI\core\agg.cpp" />
+    <ClCompile Include="..\ZUI\core\agg\agg_font_win32_tt.cpp" />
+    <ClCompile Include="..\ZUI\core\agg\src\agg_curves.cpp" />
+    <ClCompile Include="..\ZUI\core\agg\src\agg_trans_affine.cpp" />
+    <ClCompile Include="..\ZUI\core\agg\src\agg_vcgen_stroke.cpp" />
     <ClCompile Include="..\ZUI\core\builder.c" />
     <ClCompile Include="..\ZUI\core\carray.c" />
     <ClCompile Include="..\ZUI\core\control.c" />
+    <ClCompile Include="..\ZUI\core\debug.c" />
     <ClCompile Include="..\ZUI\core\function.c" />
     <ClCompile Include="..\ZUI\core\gdi.c" />
     <ClCompile Include="..\ZUI\core\global.c" />
     <ClCompile Include="..\ZUI\core\manager.c" />
+    <ClCompile Include="..\ZUI\core\memory.c" />
     <ClCompile Include="..\ZUI\core\mxml.c" />
     <ClCompile Include="..\ZUI\core\resdb.c" />
     <ClCompile Include="..\ZUI\core\string.c" />

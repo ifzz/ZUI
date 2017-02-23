@@ -189,6 +189,81 @@
   <ItemGroup>
     <ClCompile Include="control\Browser.c" />
     <ClCompile Include="control\Edit.c" />
+    <ClCompile Include="control\html\dw\alignedtextblock.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\bullet.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\dwimage.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\dwtable.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\dwui.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\findtext.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\iterator.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\dwlayout.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\listitem.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\ruler.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\selection.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\style.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\tablecell.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\textblock.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\types.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\widget.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\zuiplatform.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\zuiviewbase.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\dw\zuiviewport.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\Html.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\lout\container.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\lout\identity.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\lout\lmisc.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\lout\object.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="control\html\lout\signal.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="control\Label.c" />
     <ClCompile Include="control\List.c" />
     <ClCompile Include="control\Menu.c" />
@@ -209,16 +284,18 @@
     <ClCompile Include="core\builder.c" />
     <ClCompile Include="core\carray.c" />
     <ClCompile Include="core\control.c" />
+    <ClCompile Include="core\debug.c" />
     <ClCompile Include="core\function.c" />
     <ClCompile Include="core\gdi.c" />
     <ClCompile Include="core\global.c" />
     <ClCompile Include="core\manager.c" />
+    <ClCompile Include="core\memory.c" />
     <ClCompile Include="core\mxml.c" />
     <ClCompile Include="core\resdb.c" />
     <ClCompile Include="core\string.c" />
     <ClCompile Include="core\template.c" />
     <ClCompile Include="core\tree.c" />
-    <ClCompile Include="debug.c">
+    <ClCompile Include="zuidebug.c">
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</WholeProgramOptimization>
     </ClCompile>
     <ClCompile Include="layout\Layout.c" />
@@ -331,6 +408,38 @@
   <ItemGroup>
     <ClInclude Include="control\Browser.h" />
     <ClInclude Include="control\Edit.h" />
+    <ClInclude Include="control\Html.h" />
+    <ClInclude Include="control\html\dw\alignedtextblock.hh" />
+    <ClInclude Include="control\html\dw\bullet.hh" />
+    <ClInclude Include="control\html\dw\core.hh" />
+    <ClInclude Include="control\html\dw\events.hh" />
+    <ClInclude Include="control\html\dw\findtext.hh" />
+    <ClInclude Include="control\html\dw\image.hh" />
+    <ClInclude Include="control\html\dw\imgbuf.hh" />
+    <ClInclude Include="control\html\dw\iterator.hh" />
+    <ClInclude Include="control\html\dw\layout.hh" />
+    <ClInclude Include="control\html\dw\listitem.hh" />
+    <ClInclude Include="control\html\dw\platform.hh" />
+    <ClInclude Include="control\html\dw\ruler.hh" />
+    <ClInclude Include="control\html\dw\selection.hh" />
+    <ClInclude Include="control\html\dw\style.hh" />
+    <ClInclude Include="control\html\dw\table.hh" />
+    <ClInclude Include="control\html\dw\tablecell.hh" />
+    <ClInclude Include="control\html\dw\textblock.hh" />
+    <ClInclude Include="control\html\dw\types.hh" />
+    <ClInclude Include="control\html\dw\ui.hh" />
+    <ClInclude Include="control\html\dw\view.hh" />
+    <ClInclude Include="control\html\dw\widget.hh" />
+    <ClInclude Include="control\html\dw\zuiplatform.hh" />
+    <ClInclude Include="control\html\dw\zuiviewbase.hh" />
+    <ClInclude Include="control\html\dw\zuiviewport.hh" />
+    <ClInclude Include="control\html\lout\container.hh" />
+    <ClInclude Include="control\html\lout\debug.hh" />
+    <ClInclude Include="control\html\lout\identity.hh" />
+    <ClInclude Include="control\html\lout\misc.hh" />
+    <ClInclude Include="control\html\lout\msg.h" />
+    <ClInclude Include="control\html\lout\object.hh" />
+    <ClInclude Include="control\html\lout\signal.hh" />
     <ClInclude Include="control\Label.h" />
     <ClInclude Include="control\List.h" />
     <ClInclude Include="control\Menu.h" />
@@ -346,9 +455,11 @@
     <ClInclude Include="core\builder.h" />
     <ClInclude Include="core\carray.h" />
     <ClInclude Include="core\control.h" />
+    <ClInclude Include="core\debug.h" />
     <ClInclude Include="core\function.h" />
     <ClInclude Include="core\graphic.h" />
     <ClInclude Include="core\global.h" />
+    <ClInclude Include="core\memory.h" />
     <ClInclude Include="core\mxml.h" />
     <ClInclude Include="core\manager.h" />
     <ClInclude Include="core\resdb.h" />
@@ -395,4 +506,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Zui.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

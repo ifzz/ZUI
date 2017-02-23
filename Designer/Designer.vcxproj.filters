@@ -31,6 +31,12 @@
     <Filter Include="源文件\ZUI\zlib">
       <UniqueIdentifier>{c2040230-fbcf-4d38-b70e-884f6d96dd29}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\ZUI\core\agg">
+      <UniqueIdentifier>{690a0116-2ee8-4017-805c-85437b1b9bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ZUI\core\agg\src">
+      <UniqueIdentifier>{7d58f225-193d-499d-974f-7d0f699c9346}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ZUI\core\builder.c">
@@ -230,6 +236,27 @@
     </ClCompile>
     <ClCompile Include="..\ZUI\control\List.c">
       <Filter>源文件\ZUI\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\memory.c">
+      <Filter>源文件\ZUI\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\agg.cpp">
+      <Filter>源文件\ZUI\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\agg\agg_font_win32_tt.cpp">
+      <Filter>源文件\ZUI\core\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\agg\src\agg_vcgen_stroke.cpp">
+      <Filter>源文件\ZUI\core\agg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\agg\src\agg_curves.cpp">
+      <Filter>源文件\ZUI\core\agg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\agg\src\agg_trans_affine.cpp">
+      <Filter>源文件\ZUI\core\agg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZUI\core\debug.c">
+      <Filter>源文件\ZUI\core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
